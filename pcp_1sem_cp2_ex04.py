@@ -1,0 +1,6 @@
+nome = input("Digite o nome do funcionário: ")
+cargo = int(input("Digite o número correspondente ao cargo (1 = gerente, 2 = analista, 3 = assistente, 4 = estagiário): "))
+salárioBase = float(input("Digite o salário base: "))
+horasExtras = int(input("Digite o número total de horas extras trabalhadas: "))
+faltas = int(input("Digite o número de faltas no mês: "))
+bônus = input("Digite se o funcioário recebeu bônus (s ou n): ")
