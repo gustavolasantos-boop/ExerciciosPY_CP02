@@ -1,0 +1,5 @@
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite a sua idade: "))
+renda = float(input("Informe sua renda mensal: "))
+emprestimo = float(input("Informe o valor que deseja retirar de emprestimo: "))
+parcelas = int(input("Número de parcelas que deseja: "))
