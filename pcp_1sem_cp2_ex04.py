@@ -4,13 +4,13 @@ def calcular_horas_extras(salario_base, horas):
     total = valor_hora_extra * horas
     return total
 
-#codigo da funcao para descontos x faltas
+#codigo da funcao para descontos por faltas
 def calcular_descontos_faltas(salario_base, faltas):
     desconto_por_falta = salario_base * 0.02
     total = desconto_por_falta * faltas
     return total
 
-#codigo para funcao de bonus
+#esse é para funcao de bonus
 def calcular_bonus(cargo, recebeu_bonus):
     if recebeu_bonus == 's':
         if cargo == 1:
@@ -39,7 +39,7 @@ total_acrescimos = total_horas_extras + bonus
 salario_final = salario_bruto + total_acrescimos - total_descontos
 
 
-print("--- RESUMO ---")
+print("--- Informações Gerais ---")
 print("Funcionário:", nome)
 print("Salário bruto:", salario_bruto)
 print("Acréscimos:", total_acrescimos)
