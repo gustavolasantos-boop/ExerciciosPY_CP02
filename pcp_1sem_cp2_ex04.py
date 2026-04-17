@@ -34,9 +34,9 @@ total_horas_extras = calcular_horas_extras(salario_base, horas_extras)
 total_descontos = calcular_descontos_faltas(salario_base, faltas)
 bonus = calcular_bonus(cargo, recebeu_bonus)
 
-salario_bruto = salario_base
+salario_bruto = salario_base + (calcular_horas_extras(salario_base, horas_extras)) + (calcular_bonus(cargo, recebeu_bonus))
 total_acrescimos = total_horas_extras + bonus
-salario_final = salario_bruto + total_acrescimos - total_descontos
+salario_final = salario_bruto - total_descontos
 
 
 print("--- Informações Gerais ---")
