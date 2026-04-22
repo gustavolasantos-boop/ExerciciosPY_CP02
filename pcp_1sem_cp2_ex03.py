@@ -9,7 +9,7 @@ if cp2 < menor:
     menor = cp2
 if cp3 < menor:
     menor = cp3
-media = (cp1 + cp2 + cp3 - menor + sp1 + sp2) / 4
-media_peso = media * 0.4 + gs * 0.6
-print("média do semestre ", media,)
-print("média do semestre com peso ", media_peso)
+media = ((cp1 + cp2 + cp3 - menor + sp1 + sp2) / 4)*0.4 + gs * 0.6
+media_peso = media * 0.4
+print(f"média do semestre {media:.1f}")
+print(f"média do semestre com peso {media_peso:.1f}")
